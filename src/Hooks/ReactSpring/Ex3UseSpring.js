@@ -1,6 +1,8 @@
 import React from "react";
 import { useSprings, useSpring, animated } from "react-spring";
 
+//useSpring: render ra đồng loạt
+
 export default function Ex3UseSpring(props) {
   let arrOpacity = [
     { opacity: 0.1, color: "#000000", content: "Fullstack", num: 100 },
@@ -13,7 +15,7 @@ export default function Ex3UseSpring(props) {
   // console.log(arrOpacity.length)
 
   let propsAnimationUseSprings = useSprings(
-    arrOpacity.length,
+    arrOpacity.length,   //giới hạn số lần lặp
     arrOpacity.map((item) => ({
       opacity: item.opacity, //trạng thái đích đến (to)
       color: item.color,
