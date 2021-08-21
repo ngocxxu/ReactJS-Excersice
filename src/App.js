@@ -17,7 +17,8 @@
 // import DemoJSS from "./JSS_StyledComponent/DemoJSS/DemoJSS";
 
 import ContextProvider from "./Hooks/Context/ContextProvider";
-import DemoUseContext from "./Hooks/DemoUseContext";
+import DemoReduxApp from "./Hooks/DemoReduxApp";
+// import DemoUseContext from "./Hooks/DemoUseContext";
 
 // import DemoUseReducer from "./Hooks/DemoUseReducer";
 
@@ -73,7 +74,8 @@ function App() {
           {/* <DemoUseMemo></DemoUseMemo> */}
           {/* <DemoUseRef></DemoUseRef> */}
           {/* <DemoUseReducer></DemoUseReducer> */}
-          <DemoUseContext></DemoUseContext>
+          {/* <DemoUseContext></DemoUseContext> */}
+          <DemoReduxApp></DemoReduxApp>
     </ContextProvider>
   );
 }
