@@ -17,7 +17,9 @@
 // import DemoJSS from "./JSS_StyledComponent/DemoJSS/DemoJSS";
 
 import ContextProvider from "./Hooks/Context/ContextProvider";
-import DemoReduxApp from "./Hooks/DemoReduxApp";
+import Ex2UseSpring from "./Hooks/ReactSpring/Ex2UseSpring";
+// import DemoUseSpring from "./Hooks/ReactSpring/DemoUseSpring";
+// import DemoReduxApp from "./Hooks/DemoReduxApp";
 // import DemoUseContext from "./Hooks/DemoUseContext";
 
 // import DemoUseReducer from "./Hooks/DemoUseReducer";
@@ -75,7 +77,9 @@ function App() {
           {/* <DemoUseRef></DemoUseRef> */}
           {/* <DemoUseReducer></DemoUseReducer> */}
           {/* <DemoUseContext></DemoUseContext> */}
-          <DemoReduxApp></DemoReduxApp>
+          {/* <DemoReduxApp></DemoReduxApp> */}
+          {/* <DemoUseSpring></DemoUseSpring> */}
+          <Ex2UseSpring></Ex2UseSpring>
     </ContextProvider>
   );
 }
