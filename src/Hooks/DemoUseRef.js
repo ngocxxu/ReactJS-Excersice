@@ -2,8 +2,11 @@ import React, {useState,useRef} from 'react'
 
 export default function DemoUseRef(props) {
 
+  //dùng để DOM lấy các thuộc tính như name, value,...
   let inputUserName = useRef(null);
   let inputPassword = useRef(null);
+
+  //dùng để lưu giá trị cũ, làm giá trị cũ ko bị thay đổi, mà ko cần phải gán lại biến let cho nó sau khi render lại
   let userName = useRef('');
   let [userLogin, setUserLogin] = useState({userName});
 

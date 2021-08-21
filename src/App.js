@@ -16,7 +16,9 @@
 // import ExerciseCarStore from "./Props/ExerciseCarStore/ExerciseCarStore";
 // import DemoJSS from "./JSS_StyledComponent/DemoJSS/DemoJSS";
 
-import DemoUseRef from "./Hooks/DemoUseRef";
+import DemoUseReducer from "./Hooks/DemoUseReducer";
+
+// import DemoUseRef from "./Hooks/DemoUseRef";
 
 // import DemoUseMemo from "./Hooks/DemoUseMemo";
 
@@ -66,7 +68,8 @@ function App() {
           {/* <DemoUseEffect></DemoUseEffect> */}
           {/* <DemoUseCallBack></DemoUseCallBack> */}
           {/* <DemoUseMemo></DemoUseMemo> */}
-          <DemoUseRef></DemoUseRef>
+          {/* <DemoUseRef></DemoUseRef> */}
+          <DemoUseReducer></DemoUseReducer>
     </div>
   );
 }
