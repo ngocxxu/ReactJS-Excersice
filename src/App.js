@@ -16,7 +16,10 @@
 // import ExerciseCarStore from "./Props/ExerciseCarStore/ExerciseCarStore";
 // import DemoJSS from "./JSS_StyledComponent/DemoJSS/DemoJSS";
 
-import DemoUseReducer from "./Hooks/DemoUseReducer";
+import ContextProvider from "./Hooks/Context/ContextProvider";
+import DemoUseContext from "./Hooks/DemoUseContext";
+
+// import DemoUseReducer from "./Hooks/DemoUseReducer";
 
 // import DemoUseRef from "./Hooks/DemoUseRef";
 
@@ -41,7 +44,7 @@ import DemoUseReducer from "./Hooks/DemoUseReducer";
 // import ExerciseCart from "./Props/ExerciseCart/ExerciseCart";
 function App() {
   return (
-    <div className="App">
+    <ContextProvider className="App">
           {/* <HomeComponent /> */}
           {/* <Databinding /> */}
           {/* <BaiTapThucHanhLayout /> */}
@@ -69,8 +72,9 @@ function App() {
           {/* <DemoUseCallBack></DemoUseCallBack> */}
           {/* <DemoUseMemo></DemoUseMemo> */}
           {/* <DemoUseRef></DemoUseRef> */}
-          <DemoUseReducer></DemoUseReducer>
-    </div>
+          {/* <DemoUseReducer></DemoUseReducer> */}
+          <DemoUseContext></DemoUseContext>
+    </ContextProvider>
   );
 }
 
