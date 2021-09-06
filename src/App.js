@@ -42,7 +42,7 @@ import Ex6UseChain from "./Hooks/ReactSpring/Ex6UseChain";
 
 // import DemoTheme from "./JSS_StyledComponent/Themes/DemoTheme";
 
-// import ToDoList from "./JSS_StyledComponent/BaiTapStyleComponent/ToDoList/ToDoList";
+import ToDoList from "./JSS_StyledComponent/BaiTapStyleComponent/ToDoList/ToDoList";
 
 // import BaiTapQuanLyNguoiDung from "./DemoRedux/BaiTapQuanLyNguoiDung/BaiTapQuanLyNguoiDung";
 
@@ -72,7 +72,7 @@ function App() {
           {/* <BaiTapGameXucXac></BaiTapGameXucXac> */}
           {/* <BaiTapQuanLyNguoiDung></BaiTapQuanLyNguoiDung> */}
           {/* <DemoJSS></DemoJSS> */}
-          {/* <ToDoList></ToDoList> */}
+          <ToDoList></ToDoList>
           {/* <LifeCycleReact></LifeCycleReact> */}
           {/* <DemoHookUseState></DemoHookUseState> */}
           {/* <DemoUseEffect></DemoUseEffect> */}
@@ -87,7 +87,7 @@ function App() {
           {/* <Ex3UseSpring></Ex3UseSpring> */}
             {/* <Ex4UseTrail></Ex4UseTrail> */}
             {/* <Ex5UseTransition></Ex5UseTransition> */}
-            <Ex6UseChain></Ex6UseChain>
+            {/* <Ex6UseChain></Ex6UseChain> */}
     </ContextProvider>
   );
 }

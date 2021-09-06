@@ -127,7 +127,7 @@ class ToDoList extends Component {
   render() {
     return (
       <ThemeProvider theme={this.props.themeToDoList}>
-        <Container className="w-50">
+        <Container className="w-50 mt-5">
           <Dropdown
             onChange={(e) => {
               let { value } = e.target;
